@@ -1,30 +1,33 @@
 # panos-timotheatos
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Personal CV site built with Next.js and the [v0](https://v0.app) UI generator.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/panostims-projects/v0-panos-timotheatos)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/w2QSof8Ys4Y)
+## Live Site
 
-## Overview
+Published through GitHub Pages at **https://panostim.github.io/**. Every push to the `main` branch triggers the `Deploy to GitHub Pages` GitHub Actions workflow, which exports the static site and updates the Pages environment automatically.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Local Development
 
-## Deployment
+```bash
+pnpm install
+pnpm dev
+```
 
-Your project is live at:
+The app runs at http://localhost:3000 while developing.
 
-**[https://vercel.com/panostims-projects/v0-panos-timotheatos](https://vercel.com/panostims-projects/v0-panos-timotheatos)**
+## Production Build
 
-## Build your app
+The workflow runs `npm run build`, which performs a static export (`next export`) into `out/`. You can replicate it locally with:
 
-Continue building your app on:
+```bash
+npm run build
+npm run dev
+```
 
-**[https://v0.app/chat/projects/w2QSof8Ys4Y](https://v0.app/chat/projects/w2QSof8Ys4Y)**
+Preview the exported output by serving the `out/` directory with any static file server (for example, `npx serve out`).
 
-## How It Works
+## Customisation
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- Update copy and sections in `app/page.tsx` and the components under `components/`.
+- Global styles live in `app/globals.css` and `styles/`.
+- Deployment settings and runtime options are defined in `next.config.mjs` and `.github/workflows/deploy.yml`.
