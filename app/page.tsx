@@ -3,7 +3,6 @@ import { CVExperience } from "@/components/cv-experience"
 import { CVEducation } from "@/components/cv-education"
 import { CVSkills } from "@/components/cv-skills"
 import { CVCertifications } from "@/components/cv-certifications"
-
 export default function CVPage() {
   return (
     <div className="min-h-screen bg-background">
