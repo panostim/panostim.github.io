@@ -1,4 +1,4 @@
-# panos-timotheatos
+# Intro
 
 Personal CV site built with Next.js, Magic UI and the v0 UI generator.
 
