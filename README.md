@@ -1,6 +1,6 @@
 # panos-timotheatos
 
-Personal CV site built with Next.js and the [v0](https://v0.app) UI generator.
+Personal CV site built with Next.js, Magic UI and the v0 UI generator.
 
 ## Live Site
 
@@ -21,7 +21,6 @@ The workflow runs `npm run build`, which performs a static export (`next export`
 
 ```bash
 npm run build
-npm run dev
 ```
 
 Preview the exported output by serving the `out/` directory with any static file server (for example, `npx serve out`).
