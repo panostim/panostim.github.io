@@ -8,11 +8,11 @@ const skillCategories = [
   },
   {
     category: "AI & Machine Learning",
-    skills: ["ChatPRD", "Lovable", "OpenAI Codex", "Vercel v0", "Cursor", "MCP servers"],
+    skills: ["Claude Code", "OpenAI Codex", "Agentic AI", "Vercel v0", "Cursor", "MCP servers", "ChatPRD", "Lovable", "and more"],
   },
   {
     category: "Cloud & Infrastructure",
-    skills: ["Azure", "Kubernetes", "Serverless", "CDNs", "Cloud Computing"],
+    skills: ["Azure", "Kubernetes", "Serverless", "CDNs", "Network", "Cloud Computing"],
   },
   {
     category: "Data & Analytics",
