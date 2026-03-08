@@ -2,6 +2,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
 const experiences = [
+    {
+    title: "CPO / CTO",
+    company: "HRTech Startup",
+    period: "May 2025 - today",
+    achievements: [
+      "Conceived and led development of an AI-powered tool, defining strategy and product vision.",
+      "Led the Evaluation and Finetuning of LLMs to optimize domain relevance.",
+      "Built core components of the application, contributing hands-on to product development",
+    ],
+  },
   {
     title: "Head of Digital / CTO",
     company: "M. Timotheatos & partners",
