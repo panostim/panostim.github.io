@@ -14,7 +14,7 @@ export default function CVPage() {
             <h2 className="text-2xl font-bold text-primary mb-4 border-b-2 border-accent pb-2">Professional Summary</h2>
             <p className="text-foreground leading-relaxed">
               Product leader with 8+ years of experience specializing
-              in complex B2B software. Strong expertise in AI, MLOps, APIs and Cloud Infrastructure, creating
+              in complex B2B software. Strong expertise in AI, APIs and Cloud Infrastructure, creating
               products that unlock growth and customer value.
             </p>
           </section>
