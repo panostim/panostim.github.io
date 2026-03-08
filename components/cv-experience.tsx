@@ -2,6 +2,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
 const experiences = [
+        {
+    title: "Product Manager - API and Plugins",
+    company: "tbi bank",
+    period: "October 2025 - today",
+    achievements: [
+      "Identified and prioritized high-impact initiatives to increase merchant adoption and developer experience.",
+      "Reduced time-to-integration time by nearly 30% through process optimization.",
+      "Identified and prioritized API inconsistencies, including non-standard error messaging and idempotency issues, improving developer experience.",
+    ],
+        },
     {
     title: "CPO / CTO",
     company: "HRTech Startup",
