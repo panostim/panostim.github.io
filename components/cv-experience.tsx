@@ -25,7 +25,7 @@ const experiences = [
   {
     title: "Head of Digital / CTO",
     company: "M. Timotheatos & partners",
-    period: "Nov 2024 - today",
+    period: "Nov 2024 - April 2025",
     achievements: [
       "Delivered several software development projects",
       "Built and maintained the corporate website",
